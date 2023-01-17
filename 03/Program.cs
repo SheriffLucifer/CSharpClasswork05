@@ -1,4 +1,4 @@
-﻿
+﻿Console.Clear();
 int[] array = GetRandomArray(123, -100, 123);
 int numberElements = FindNumberElements(array);
 Console.WriteLine($"[{String.Join(", ", array)}] -> {numberElements}");
